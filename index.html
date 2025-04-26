@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +17,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-gray-100 font-['Poppins']">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Knuffel Ring</a>
-            <button class="lg:hidden text-white focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
-                </svg>
+            <a href="https://readthisnow.github.io/knuffel-ring-2025-04-26-xffz9" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">Knuffel Ring</a>
+            
+            <button class="mobile-menu-button md:hidden focus:outline-none" aria-label="Toggle menu">
+                <i class="fas fa-bars text-2xl text-white transition-all duration-300"></i>
             </button>
-            <div class="hidden lg:flex space-x-8">
-                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Voordelen</a>
-                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+
+            <div class="hidden md:flex space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Voordelen</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Reviews</a>
+                <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Over Ons</a>
+                <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden absolute top-full left-0 right-0 bg-gray-900/95 border-b border-gray-800">
+                <div class="flex flex-col space-y-4 p-4">
+                    <a href="#features" class="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300">Reviews</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:pl-2 transition-all duration-300">FAQ</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-32">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-pink-900/40 z-0"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515483871641-98329e6c81e5')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/80 to-pink-900/80 z-0"></div>
             <div class="container mx-auto px-4 text-center relative z-10">
                 <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Koop Knuffel Ring Met Korting
+                    Exclusieve Knuffel Ring Collectie
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    🔥 Nog maar enkele stuks beschikbaar! Mis deze unieke kans niet.
+                    🌟 Ervaar luxe en comfort met onze limited edition ringen. Nu met 30% korting en gratis verzending!
                 </p>
-                <a href="https://amzn.to/42MY4QH" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-8 py-4 rounded-full text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg hover:shadow-xl">
-                    Bestel Nu Met Korting
+                <a href="https://amzn.to/42MY4QH" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-8 py-4 rounded-full text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg hover:shadow-xl hover:from-purple-500 hover:to-pink-500">
+                    Claim Je Korting Nu
                 </a>
             </div>
         </section>
@@ -47,19 +68,30 @@
         <section id="features" class="py-24 bg-gray-800">
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Exclusieve Features
+                    Premium Features
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-gray-900 p-8 rounded-2xl hover:scale-105 transition duration-300 ease-in-out shadow-lg hover:shadow-xl">
                         <div class="text-purple-400 mb-4">
-                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2v5m-2-7h.01M12 8v13m0-13V6a2 2 0 112 2v5m-2-7h.01"></path>
-                            </svg>
+                            <i class="fas fa-gem text-4xl"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Premium Kwaliteit</h3>
-                        <p class="text-gray-400">Nog maar enkele exemplaren beschikbaar van deze limited edition collectie!</p>
+                        <h3 class="text-xl font-semibold mb-4">Premium Materialen</h3>
+                        <p class="text-gray-400">Handgemaakt van hoogwaardig 925 sterling zilver met hypoallergene coating voor maximaal draagcomfort.</p>
                     </div>
-                    <!-- Additional feature cards with similar structure -->
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:scale-105 transition duration-300 ease-in-out shadow-lg hover:shadow-xl">
+                        <div class="text-purple-400 mb-4">
+                            <i class="fas fa-heart text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Uniek Design</h3>
+                        <p class="text-gray-400">Elk stuk is een kunstwerk op zich, met zorgvuldig geplaatste details en een tijdloze uitstraling.</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:scale-105 transition duration-300 ease-in-out shadow-lg hover:shadow-xl">
+                        <div class="text-purple-400 mb-4">
+                            <i class="fas fa-certificate text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Levenslange Garantie</h3>
+                        <p class="text-gray-400">Geniet van zorgeloos gebruik met onze uitgebreide garantie en gratis onderhoudsservice.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,7 +102,88 @@
                     Waarom Kiezen Voor Knuffel Ring?
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <!-- Benefits content -->
+                    <div class="p-6 bg-gray-800 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Superieure Kwaliteit</h3>
+                        <p class="text-gray-300">Elke ring wordt met de hand vervaardigd door ervaren ambachtslieden, gebruikmakend van alleen de finest materialen en edelstenen.</p>
+                    </div>
+                    <div class="p-6 bg-gray-800 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Exclusief Aanbod</h3>
+                        <p class="text-gray-300">Profiteer nu van 30% korting, gratis verzending en een luxe geschenkverpakking bij elke bestelling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Wat Onze Klanten Zeggen
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"De kwaliteit overtrof al mijn verwachtingen. De ring past perfect en de klantenservice was uitstekend!"</p>
+                        <p class="font-semibold">Lisa V.</p>
+                        <p class="text-sm text-gray-400">Fashion Blogger</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Een prachtig sieraad dat ik dagelijks draag. De afwerking is subliem."</p>
+                        <p class="font-semibold">Mark R.</p>
+                        <p class="text-sm text-gray-400">Architect</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Snelle levering en de ring ziet er nog mooier uit dan op de foto's. Zeer tevreden!"</p>
+                        <p class="font-semibold">Emma K.</p>
+                        <p class="text-sm text-gray-400">Ondernemer</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Perfect cadeau voor mijn partner. De verpakking was prachtig en de ring is van topkwaliteit."</p>
+                        <p class="font-semibold">Thomas B.</p>
+                        <p class="text-sm text-gray-400">Creative Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Over Ons
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">
+                        Opgericht in 2020 door een team van gepassioneerde juwelenontwerpers, is Knuffel Ring uitgegroeid tot een toonaangevend merk in de wereld van handgemaakte sieraden. Onze reis begon met een simpele missie: het creëren van tijdloze stukken die comfort en elegantie combineren.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        We streven ernaar om duurzaamheid en ethische productie voorop te stellen, waarbij we samenwerken met lokale ambachtslieden en alleen de meest hoogwaardige, duurzame materialen gebruiken. Onze kernwaarden van kwaliteit, innovatie en klanttevredenheid vormen de basis van alles wat we doen.
+                    </p>
                 </div>
             </div>
         </section>
@@ -81,15 +194,35 @@
                     Veelgestelde Vragen
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <!-- FAQ items -->
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Wat is de levertijd?</h3>
+                        <p class="text-gray-400">Wij leveren binnen 2-3 werkdagen in Nederland en België. Express verzending is mogelijk binnen 24 uur.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Zijn de ringen verstelbaar?</h3>
+                        <p class="text-gray-400">Ja, onze ringen zijn aanpasbaar binnen 1-2 maten. Voor grotere aanpassingen bieden we een gratis resize service.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Wat is jullie retourbeleid?</h3>
+                        <p class="text-gray-400">We bieden een 30-dagen retourgarantie. Niet tevreden? Dan krijg je je geld terug, geen vragen gesteld.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Zijn de ringen nikkelvrij?</h3>
+                        <p class="text-gray-400">Ja, al onze ringen zijn 100% nikkelvrij en hypoallergeen, perfect voor gevoelige huid.</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Hoe onderhoud ik mijn ring?</h3>
+                        <p class="text-gray-400">We leveren een gratis onderhoudspakket bij elke ring en bieden levenslange onderhoudstips en service.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="cta" class="py-24 bg-gradient-to-r from-purple-900 to-pink-900">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Mis Deze Kans Niet!</h2>
-                <p class="text-xl mb-12">⚡ Tijdelijke aanbieding - Op=Op</p>
+        <section id="cta" class="py-24 bg-gradient-to-r from-purple-900 to-pink-900 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515483871641-98329e6c81e5')] bg-cover bg-center opacity-20"></div>
+            <div class="container mx-auto px-4 text-center relative z-10">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Laatste Kans op 30% Korting!</h2>
+                <p class="text-xl mb-12">⚡ Limited Time Offer - Nog maar 5 stuks beschikbaar</p>
                 <a href="https://amzn.to/42MY4QH" class="inline-block bg-white text-gray-900 font-semibold px-8 py-4 rounded-full text-lg hover:scale-105 transform transition duration-300 ease-in-out shadow-lg hover:shadow-xl">
                     Bestel Nu Met Korting
                 </a>
@@ -106,19 +239,28 @@
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-400">support@example.com</p>
+                    <p class="text-gray-400">support@knuffelring.com</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffel-ring-2025-04-26-xffz9/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffel-ring-2025-04-26-xffz9/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffel-ring-2025-04-26-xffz9/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Volg Ons</h3>
                     <div class="flex space-x-4">
-                        <!-- Social media icons -->
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -127,5 +269,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
